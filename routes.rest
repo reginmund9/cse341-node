@@ -1,4 +1,4 @@
-### Add contact (POST) POST http://localhost:3001/contacts Content-Type: application/json
+### Add contact (POST) POST http://localhost:3001/users Content-Type: application/json
 
 {
    
@@ -9,16 +9,16 @@
     "birthday": "6/6/1996"
   }
 
-### Update contact (PUT) PUT http://localhost:3001/contacts/6670d722c69d69d6e5366d07 Content-Type: application/json
+### Update contact (PUT) PUT http://localhost:3001/users/6673d30bc218423e96a18b66 Content-Type: application/json
   {
     
-    "firstName": "Alina",
-    "lastName": "Hernández",
-    "email": "ah@hernandez.net",
-    "favoriteColor": "Blue",
-    "birthday": "6/6/1996"
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "favoriteColor": "Golden",
+    "birthday": "1995-03-25"
   }
-### Delete Contact DELETE http://localhost:3001/contacts/6670d767c69d69d6e5366d09
+### Delete Contact DELETE http://localhost:3001/users
 
 
 
@@ -42,10 +42,10 @@
 
   {
     
-    "firstName": "Alina",
-    "lastName": "Hernández",
-    "email": "ah@hernandez.net",
-    "favoriteColor": "Blue",
-    "birthday": "6/6/1996"
+    "firstName": "Charlie",
+    "lastName": "Brown",
+    "email": "charlie.brown@example.com",
+    "favoriteColor": "Golden",
+    "birthday": "1995-03-25"
   }
 ### Remove a contact (DELETE) DELETE https://cse341-contacts-6y6j.onrender.com/users
