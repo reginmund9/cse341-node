@@ -1,5 +1,8 @@
-//LOCAL ### GET all contacts GET http://localhost:3000/users 
+//LOCAL 
+### GET all contacts GET http://localhost:3000/users 
 ### GET specific contact GET http://localhost:3000/users/6673d30bc218423e96a18b66
-//PRODUCTION ### GET all contacts GET //LOCAL ### GET all contacts GET http://localhost:3000/users
+
+//PRODUCTION 
+### GET all contacts GET https://project1-arj6.onrender.com/users
 ### GET specific contact GET https://project1-arj6.onrender.com/users/6673d30bc218423e96a18b66
 
